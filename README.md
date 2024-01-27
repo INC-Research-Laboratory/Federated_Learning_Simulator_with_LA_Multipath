@@ -100,3 +100,22 @@ use `requirements.txt`
  <img src="output_basic/Device_Location.png" width="320" height="240"/>
    
 ### 2. output
+```
+output_basic
+├─multipaths
+│  ├─without_la
+│  │  └─used_node
+│  └─with_la
+│      └─used_node
+└─singlepath
+    ├─without_la
+    │  └─used_node
+    └─with_la
+        └─used_node
+```
+- output_(with_la or without_la).csv
+- accuracy_Graph_(with_la or without_la).png
+- animation_(with_la or without_la).gif
+- Roundtime comparision.png
+
+  <img src="output_basic/multipaths/Roundtime comparision.png" width="320" height="240"/>
