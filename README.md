@@ -115,7 +115,11 @@ output_basic
 ```
 - output_(with_la or without_la).csv
 - accuracy_Graph_(with_la or without_la).png
+
+  <img src="output_basic/multipaths/with_la/accuracy_Graph_with_la.png" width="320" height="240"/>
 - animation_(with_la or without_la).gif
+     
+  ![animation_with_la](https://github.com/INC-Research-Laboratory/Federated_Learning_Simulator_with_LA_Multipath/assets/73013625/71a635df-796d-4527-94bc-e5ee54bc44f7)
 - Roundtime comparision.png
 
   <img src="output_basic/multipaths/Roundtime comparision.png" width="320" height="240"/>
