@@ -1,0 +1,9 @@
+root_path: "./output_basic/"
+
+multi:
+  with_la: "./output_basic/multipaths/with_la/"
+  without_la: "./output_basic/multipaths/without_la/"
+
+single:
+  with_la: "./output_basic/singlepath/with_la/"
+  without_la: "./output_basic/singlepath/without_la/"

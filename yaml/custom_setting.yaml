@@ -1,0 +1,100 @@
+
+setting:
+  min_acc: 0 # minimum accuracy
+  max_acc: 0.8 # maximum accuracy
+  w_of_epoch: 0.02 # weight of local training epoch
+  w_of_client: 0.0001 # weight of participated client
+
+  round_num: 10
+  edge_num: 3
+  model: Inception_V3
+
+server_spec:
+  communication_1: LTE
+  communication_2: 1Gbps
+  location:
+    x: 70
+    y: 70
+
+edge_device_spec:
+  client1_spec:
+    location:
+      x: 30
+      y: 20
+    device: Dimensity 8100-Max
+    communication_1: WIFI
+    communication_2: 1Gbps
+    dataset: MNIST
+    agent_num: 2
+
+    agent1_spec:
+      location:
+        x: 37
+        y: 14
+      device: NVIDIA TITAN RTX
+      communication_1: LTE
+      communication_2: 1Gbps
+
+    agent2_spec:
+      location:
+        x: 25
+        y: 25
+      device: Geforce RTX 2080 Ti
+      communication_1: WIFI
+      communication_2: 1Gbps
+
+
+
+  client2_spec:
+    location:
+      x: 90
+      y: 10
+
+    device: Snapdragon 870
+    communication_1: LTE
+    communication_2: 1Gbps
+    dataset: CIFAR10
+    agent_num: 2
+
+    agent1_spec:
+      location:
+        x: 97
+        y: 14
+      device: Geforce RTX 2080 Ti
+      communication_1: WIFI
+      communication_2: 1Gbps
+
+    agent2_spec:
+      location:
+        x: 85
+        y: 20
+      device: NVIDIA TITAN RTX
+      communication_1: LTE
+      communication_2: 1Gbps
+
+
+  client3_spec:
+    location:
+      x: 60
+      y: 85
+    device: Snapdragon 888
+    communication_1: LTE
+    communication_2: 5G
+    dataset: CIFAR10
+    agent_num: 2
+
+    agent1_spec:
+      location:
+        x: 63
+        y: 74
+      device: Geforce RTX 2080 Ti
+      communication_1: LTE
+      communication_2: 1Gbps
+
+    agent2_spec:
+      location:
+        x: 50
+        y: 90
+      device: Geforce RTX 2070 laptop
+      communication_1: LTE
+      communication_2: 1Gbps
