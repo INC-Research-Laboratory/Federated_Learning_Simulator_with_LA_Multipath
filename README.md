@@ -95,4 +95,8 @@ use `requirements.txt`
    ```
 ## Results
 ### 1. Configuration situation
+ - `Device_spec.csv`
+ - `Device_Location.png`
+ <img src="output_basic/Device_Location.png" width="320" height="240"/>
+   
 ### 2. output
